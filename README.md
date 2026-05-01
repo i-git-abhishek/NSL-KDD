@@ -43,7 +43,7 @@ The Multi-Layer Perceptron baseline achieved near-perfect classification on the 
 * False Negatives (Attack missed): 36
 * True Positives (Attack correctly flagged): 8,714
 
-![MLP Confusion Matrix](mlp_classifier_matrix.png)
+![MLP Confusion Matrix](mlp_classification_matrix.png)
 
 **Research Note:** The saturation of metrics (>99% accuracy) is a known characteristic when applying deep learning to the standard NSL-KDD dataset. Future experimentation will involve aggressive feature starvation and artificially limiting training data volume to stress-test the robustness of the GAT architecture against the MLP baseline under zero-day constraints.
 
