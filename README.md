@@ -51,7 +51,7 @@ In cybersecurity, maximizing the Recall of the minority "Attack" class is paramo
 While the MLP achieved higher overall accuracy, **the custom Graph Attention Network (GAT) successfully reduced False Negatives (missed attacks) by over 55%** (from 36 down to 16) by leveraging structural network topology.
 
 <p align="center">
-  <img src="/results_complete_datasets//mlp_matrixMLP_hidden_layers_(128, 64, 32)-activation_relu-lr_0.001-max_iter_300_CM.png" alt="MLP Confusion Matrix" width="45%">
+  <img src="/results_complete_datasets/mlp_matrixMLP_hidden_layers_(128, 64, 32)-activation_relu-lr_0.001-max_iter_300_CM.png" alt="MLP Confusion Matrix" width="45%">
   &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="/results_complete_datasets/GAT_k_neighbors_3-heads_4-hidden_dim_64-lr_0.005-threshold_0.35_CM.png" alt="GAT Confusion Matrix" width="45%">
 </p>
